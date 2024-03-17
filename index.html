@@ -1,0 +1,74 @@
+<!--Vilnius.uz-->
+
+<!DOCTYPE html>
+<html lang="uz-UZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>Vilnius</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<!--Yaratuvchi: Uralbek Tursunov | 17-mart 2024-->
+<body>
+
+<div class="w3-top">
+<div class="w3-container w3-card" id="gradient">
+    <a class="logo"><img width="150px" height="34px" src="https://i.ibb.co/x39pQyR/logo.png" alt="logo" border="0"></a>
+</div>
+<div class="scolmenu w3-card-4" id="gradient2">
+    <b>&#160; &#160;</b>
+    <a href="#">ADABIYOT</a>
+    <a href="#">ALGEBRA</a>
+    <a href="#">BIOLOGIYA</a>
+    <a href="#">BOTANIKA</a>
+    <a href="#">ASTRONOMIYA</a>
+    <a href="#">GEOGRAFIYA</a>
+    
+    
+    <b>&#160; &#160; &#160;</b>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
+<style>
+    
+    
+    #gradient {
+        height: 52px;
+        background-color: red;
+        background-image: linear-gradient(to right, red, red, yellow);
+    }
+    #gradient2 {
+        height: 26px;
+        background-color: blue;
+        background-image: linear-gradient(to right, #013E62, #013E62, #013E62, #A1DAD7);
+    }
+    .logo {
+        float: left!important;
+        padding-top: 12px;
+    }
+    div.scolmenu {
+        background-color: none;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    div.scolmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 3px 12px;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    div.scolmenu a:hover {
+        background-color: #013E62;
+    }
+</style>
